@@ -5,5 +5,8 @@ __pycache__/
 # C extensions
 *.so
 
+#events
+*events.out.tfevents.*
+
 #do not push data
 datasets

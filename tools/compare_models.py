@@ -50,5 +50,5 @@ if __name__ == '__main__':
 	for f_paths in file_paths:
 		f_path,model_type, params, _,partition_type,file = f_paths
 		X,L,A = load_json_epochs(f_path)
-		plotGraph(X,L,A,pp, model_type +" "+ params)
+		plotGraph(X,L,A,pp, model_type +" "+ params +" on "+ data_dir)
 	pp.close()
