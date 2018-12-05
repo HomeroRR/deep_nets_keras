@@ -7,7 +7,7 @@ To use run the run.sh on terminal.
 
 Example run:
 ```python
- python main.py --train True --eval True --test True --dataset 'ImageNet' --model 'resnet50' --epochs 90 --workers 4 --batch_size 128 -lr 0.01
+ python main.py --train True --eval True --test True --dataset 'ImageNet' --model 'resnet50' --epochs 90 --workers 4 --batch_size 128 --lr 0.01
 ```
 
 
