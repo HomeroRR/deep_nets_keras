@@ -50,7 +50,7 @@ def evaluate_model(model, X, Y, args):
         loss_test, acc_test = model.evaluate(X, Y, verbose=0)
         records["test"] = {"loss":loss_test, "accuracy":acc_test}
     
-    with open(logs_dir+'/logs.txt', mode='w') as json_log:
+    with open(logs_dir+'/log.txt', mode='w') as json_log:
         json.dump(records, json_log)
 
 def main(args): 
