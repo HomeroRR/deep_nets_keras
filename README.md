@@ -3,6 +3,8 @@
 Implementation of AlexNet, VGG, and Resnet using Keras!
 Available datasets are CIFAR10, MNIST, and ImageNet
 
+Requirements at the requeriments.txt. Note: ImageNet default location is the datasets folder, otherwise specify --data_dir variable
+
 To use run the run.sh on terminal.
 
 Example run:
